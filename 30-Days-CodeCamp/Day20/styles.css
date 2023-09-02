@@ -1,0 +1,25 @@
+/* Estilos para el elemento <header> */
+header {
+    background: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 0; /* Elimina cualquier margen exterior */
+    color: beige;
+}
+
+/* Estilos para el elemento con la clase .container */
+.container {
+    background-image: url('Untitled (11).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Añadir estilos para el contenido en <main> si es necesario */
+main {
+    margin: 0; /* Para eliminar cualquier margen interno */
+}
