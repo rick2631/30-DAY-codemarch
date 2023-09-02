@@ -1,0 +1,34 @@
+header {
+    text-decoration: underline;
+    letter-spacing: 2px;
+  }
+  
+  nav {
+    background-color: rgb(128, 0, 17);
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-indent: 0; /* Eliminar la indentación de texto */
+  }
+  
+  ul {
+    list-style: none;
+    line-height: 2;
+    padding-left: 0; /* Eliminar el margen izquierdo de la lista */
+  }
+  
+  li:hover {
+    background-color: rgb(0, 128, 17);
+    color: black;
+  }
+  
+    
+   
+  
+  

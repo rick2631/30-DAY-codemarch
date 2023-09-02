@@ -1,0 +1,27 @@
+header {
+    background-color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(236, 242, 247);
+}
+
+.fa-solid.fa-leaf {
+    font-size: 100px; /* Cambia el tamaño de la hoja */
+    color: rgb(131, 245, 103);
+    margin-top: 40px;
+}
+
+p {
+    background-color: olive;
+    margin: 20px; /* Agrega un margen alrededor del párrafo */
+    padding: 10px; /* Agrega un relleno interno al párrafo */
+}

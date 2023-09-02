@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Feedback Form"</title>
+</head>
+    <body>
+        <h1>BOCAS DEL TORO</h1>
+        <iframe width="661" height="496" src="https://www.youtube.com/embed/59ifwkFwu_8" title="Filthy Friday #144 - March 6th, 2020 - Bocas del Toro, Panama.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3> emoji </h3>
+            &#x1F973; &#128520; &#128170;
+
+         <h1>Map</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d125947.3284823313!2d-82.2974675!3d9.4342002!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spa!4v1691288990216!5m2!1ses!2spa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <h1>Canvas</h1>
+            <canvas id="myCanvas" width="661" height="400" style="border: 1px solid #000000;"></canvas>
+
+            <script>
+                // Obtener el lienzo (canvas) por su ID
+            let canvas = document.getElementById("myCanvas");
+                
+                // Obtener el contexto del lienzo (contexto 2D)
+                let ctx = canvas.getContext("2d");
+                
+                // Dibujar un círculo rojo
+                ctx.beginPath();
+                ctx.arc(100, 100, 50, 0, 2 * Math.PI);
+                ctx.fillStyle = "red";
+                ctx.fill();
+                ctx.closePath();
+            </script>
+        <h1>Feedback Form</h1>
+        <form >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+        </form>
+   
+</body>
+</html>

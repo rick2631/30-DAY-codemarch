@@ -1,0 +1,23 @@
+header{
+    color: #FF0000;
+    background-color: #FFFF00;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    color: hsl(128, 100%, 32%);
+    background-color:#800080;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: solid black ;
+    margin: 0 auto;                                    x;
+   background-color: #FF0000;
+   
+}

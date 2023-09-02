@@ -1,0 +1,43 @@
+.Container1 {
+    border: 1px solid black;
+    width: 100%;
+    margin: 5px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #00ffb3, #fdfdfd);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+    margin: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%; 
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: rgb(181, 245, 181);
+}
+
+.Container {
+    background-image: linear-gradient(to bottom, #ffcc00, #ff6600);
+    width: 50%;
+    padding: 20px;
+    margin: 15px auto;
+    border: 1px solid black;
+    text-align: center;
+}
